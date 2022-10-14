@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/searchtalent-frontend-task/static/js/main.eeb091c3.js",
+    "main.js": "/searchtalent-frontend-task/static/js/main.879da337.js",
     "index.html": "/searchtalent-frontend-task/index.html",
-    "main.eeb091c3.js.map": "/searchtalent-frontend-task/static/js/main.eeb091c3.js.map"
+    "main.879da337.js.map": "/searchtalent-frontend-task/static/js/main.879da337.js.map"
   },
   "entrypoints": [
-    "static/js/main.eeb091c3.js"
+    "static/js/main.879da337.js"
   ]
 }
