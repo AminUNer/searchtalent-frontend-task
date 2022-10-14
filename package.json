@@ -1,0 +1,62 @@
+{
+  "homepage": "https://aminuner.github.io/searchtalent-frontend-task",
+  "name": "searchtalent-frontend-task",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@mui/icons-material": "^5.10.6",
+    "@mui/material": "^5.10.8",
+    "@reduxjs/toolkit": "^1.8.5",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.1.2",
+    "enum": "^3.0.4",
+    "html-webpack-plugin": "^4.0.0-beta.11",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-redux": "^8.0.4",
+    "react-router-dom": "^6.4.1",
+    "react-scripts": "5.0.1",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.4.1",
+    "sitemap": "^7.1.1",
+    "web-vitals": "^2.1.4",
+    "webpack-merge": "^5.7.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "REACT_APP_VERSION=$npm_package_version react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "lintfix": "lint-staged"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0",
+    "redux-devtools-extension": "^2.13.9"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

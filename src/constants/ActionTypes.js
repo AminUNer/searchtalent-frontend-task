@@ -1,0 +1,4 @@
+export const SEARCH = 'SEARCH';
+export const FIRST_SEARCH_RECEIVED = 'FIRST_SEARCH_RECEIVED';
+export const SEARCH_RECEIVED = 'SEARCH_RECEIVED';
+export const SEARCH_ERROR = 'SEARCH_ERROR';
