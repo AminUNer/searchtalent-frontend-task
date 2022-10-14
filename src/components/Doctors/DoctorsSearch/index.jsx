@@ -62,11 +62,12 @@ const DoctorsSearch = () => {
                                 facility: e.target.value,
                             })}/>
                     </Box>
-                    <Box margin={2} className="css-n27id2-MuiFormControl-root-MuiTextField-root">
+                    <Box margin={2}>
                         <InputLabel id="demo-simple-select-label">Field of Expertise</InputLabel>
                         <Select
                             labelId="simple-select-label-id"
                             value={searchObject.area}
+                            sx={{ minWidth: 500 }}
                             label="Field of expertise"
                             onChange={handleAreaChange}
                             // use a static Menu option for all fields, and map options from areasOfExpertise type
